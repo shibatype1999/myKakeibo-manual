@@ -1,5 +1,5 @@
 # Settings
-<!-- position: 13 -->
+<!-- position: 14 -->
 <!-- description: The items on the Settings tab, and how to set the currency, theme, skins, passcode lock and AI scanning. -->
 
 The **Settings** tab has the following items.

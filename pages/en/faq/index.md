@@ -1,5 +1,5 @@
 # FAQ
-<!-- position: 15 -->
+<!-- position: 16 -->
 <!-- description: Frequently asked questions about myKakeibo. -->
 
 ## Data
@@ -38,6 +38,31 @@ It is a scheduled record created at the start of each month from a subcategory w
 - Items already entered that month are not recorded.
 
 → [Bulk input pages and automatic entries](bulk-input)
+
+## CSV import
+
+### Some rows show as unreadable when I import a CSV
+
+Common causes:
+
+- The date is not in the `2026/10/25 14:30` format (no year, month/day order, month names, etc.)
+- Type is something other than Income, Expense or Transfer
+- The amount is negative or 0 (always write a positive amount and use Type for the direction)
+- An income or expense row has no category
+
+See [Importing records from CSV (format guide)](csv-import) for details.
+
+### What kind of CSV should I prepare?
+
+The same format as a CSV exported from the app is the most reliable. Put `Date,Type,Category,Subcategory,Amount,Memo,Store,Account,To account` in the first row and save as CSV UTF-8. A template is also available. → [Importing records from CSV (format guide)](csv-import)
+
+### Importing created extra categories or accounts
+
+If names in the CSV don't exactly match your categories and accounts, new ones are created. Check **New categories** and **New accounts** on the review screen and match the names in the file before importing.
+
+### I imported the same CSV twice
+
+Records with the same date & time, type, category (account pair for transfers) and amount are skipped, so the same file does not create double records. If you changed the contents and imported again, they are added as new records; restore the backup you made before importing.
 
 ## Scanning
 
