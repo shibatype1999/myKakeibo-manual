@@ -74,6 +74,11 @@ Remote Content プラグインは、指定した zip ファイルをダウンロ
 
 ## 未作成・未確定の項目
 
+- **アプリの日本語名**はローカライズして変更する予定です。決まったら、日本語版（`pages/ja/`）の「myKakeibo」を新しい名前に置き換えてください。画像URLの `myKakeibo-manual`（リポジトリ名）は置き換えないでください。
+  - タイトル・説明文: `index.md`、`premium/`（「myKakeibo プレミアム」）、`faq/`
+  - iPhone の画面に出るアプリ名（ホーム画面・「ファイル」アプリのフォルダ名・通知の設定）: `settings/`、`backup/`、`import-export/`、`reminders/`、`faq/`
+  - 英語版（`pages/en/`）は「myKakeibo」のままです。
+
 - **プライバシーポリシー・利用規約・お問い合わせ**のページはまだありません。アプリの「設定」→「詳細」の文書（`lib/content/app_documents.dart`）は現在空で、「準備中です」と表示されます。公開ページを用意する場合は、`assett-manual` と同様に `pages/privacy-policy/` などを追加してください。
 - アプリの「設定」→「ヘルプ」も現在空です。このマニュアルのURLを開くようにすることを検討してください。
 
