@@ -1,5 +1,5 @@
 # Premium
-<!-- position: 14 -->
+<!-- position: 15 -->
 <!-- description: What myKakeibo Premium (monthly or yearly) includes, and how to subscribe, restore and cancel. -->
 
 **myKakeibo Premium** is a monthly or yearly subscription. Recording, scanning, bulk input, reports and every other budgeting feature work without Premium.

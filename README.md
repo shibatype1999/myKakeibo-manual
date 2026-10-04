@@ -27,10 +27,12 @@ myKakeibo-manual/
 │   │   ├── reminders/         … リマインダー
 │   │   ├── backup/            … バックアップ・リストア・データの初期化
 │   │   ├── import-export/     … CSV のインポート・エクスポート
+│   │   ├── csv-import/        … CSV で記録を取り込む（フォーマットの解説）
 │   │   ├── settings/          … 設定（通貨・テーマ・パスコードなど）
 │   │   ├── premium/           … プレミアム
 │   │   └── faq/               … よくある質問
 │   └── en/                    … 英語版（ja/ と同じ構成・同じフォルダ名）
+├── templates/                 … 取り込み用 CSV のひな形（本文からダウンロードリンクで参照。Bludit には取り込まれません）
 └── images/                    … スクリーンショット（Bludit には取り込まれず、GitHub から直接表示）
     ├── README.md              … 撮影リスト
     ├── ja/

@@ -32,6 +32,8 @@ Only confirmed records are exported (scheduled records are not). The file is UTF
 
 ## CSV format
 
+> For the recommended format, how to write dates and amounts, how to fix errors, and how to move from another budget app, see [Importing records from CSV (format guide)](csv-import).
+
 Put the column names in the first row and one record per row from the second row. Columns are matched by name, so they can be in any order. Japanese or English column names are both accepted.
 
 | Column | Content | Example |

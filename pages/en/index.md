@@ -33,9 +33,10 @@ All your budget data is stored on your device, and scanning is done on the devic
 10. [Reminders](en/reminders)
 11. [Backup, restore and reset](en/backup)
 12. [CSV import and export](en/import-export)
-13. [Settings (currency, theme, passcode, etc.)](en/settings)
-14. [Premium](en/premium)
-15. [FAQ](en/faq)
+13. [Importing records from CSV (format guide)](en/csv-import)
+14. [Settings (currency, theme, passcode, etc.)](en/settings)
+15. [Premium](en/premium)
+16. [FAQ](en/faq)
 
 ## Requirements
 
