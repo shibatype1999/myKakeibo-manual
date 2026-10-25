@@ -38,6 +38,11 @@ All your budget data is stored on your device, and scanning is done on the devic
 15. [Premium](en/premium)
 16. [FAQ](en/faq)
 
+## Policies
+
+- [Privacy Policy](privacy-policy/en)
+- [Terms of Use](terms-of-service/en)
+
 ## Requirements
 
 - iOS (iPhone)

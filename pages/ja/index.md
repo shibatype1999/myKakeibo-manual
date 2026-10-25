@@ -38,6 +38,11 @@ myKakeibo は、毎日の記録は手早く、毎月決まった出費はもっ�
 15. [プレミアム](ja/premium)
 16. [よくある質問](ja/faq)
 
+## 規約など
+
+- [プライバシーポリシー](privacy-policy)
+- [利用規約](terms-of-service)
+
 ## 対応環境
 
 - iOS（iPhone）
