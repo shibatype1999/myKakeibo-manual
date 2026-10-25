@@ -31,7 +31,9 @@ myKakeibo-manual/
 │   │   ├── settings/          … 設定（通貨・テーマ・パスコードなど）
 │   │   ├── premium/           … プレミアム
 │   │   └── faq/               … よくある質問
-│   └── en/                    … 英語版（ja/ と同じ構成・同じフォルダ名）
+│   ├── en/                    … 英語版（ja/ と同じ構成・同じフォルダ名）
+│   ├── privacy-policy/        … プライバシーポリシー（日本語）→ /privacy-policy、en/ に英語版 → /privacy-policy/en
+│   └── terms-of-service/      … 利用規約（日本語）→ /terms-of-service、en/ に英語版 → /terms-of-service/en
 ├── templates/                 … 取り込み用 CSV のひな形（本文からダウンロードリンクで参照。Bludit には取り込まれません）
 └── images/                    … スクリーンショット（Bludit には取り込まれず、GitHub から直接表示）
     ├── README.md              … 撮影リスト
@@ -81,7 +83,8 @@ Remote Content プラグインは、指定した zip ファイルをダウンロ
   - iPhone の画面に出るアプリ名（ホーム画面・「ファイル」アプリのフォルダ名・通知の設定）: `settings/`、`backup/`、`import-export/`、`reminders/`、`faq/`
   - 英語版（`pages/en/`）は「myKakeibo」のままです。
 
-- **プライバシーポリシー・利用規約・お問い合わせ**のページはまだありません。アプリの「設定」→「詳細」の文書（`lib/content/app_documents.dart`）は現在空で、「準備中です」と表示されます。公開ページを用意する場合は、`assett-manual` と同様に `pages/privacy-policy/` などを追加してください。
+- プライバシーポリシー・利用規約のお問い合わせ窓口は「App Store の本アプリのページに記載のサポート窓口」としています。お問い合わせページはありません。
+- アプリの「設定」→「詳細」の文書（`lib/content/app_documents.dart`）は現在空で、「準備中です」と表示されます。プライバシーポリシー・利用規約のページを開くようにする場合は、**フォルダ名（`privacy-policy`・`terms-of-service`）を変えるとリンクが切れる**ので注意してください。
 - アプリの「設定」→「ヘルプ」も現在空です。このマニュアルのURLを開くようにすることを検討してください。
 
 ## 用語
